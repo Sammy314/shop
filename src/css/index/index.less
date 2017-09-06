@@ -1,0 +1,147 @@
+@import "../common/base.less";
+@import "../common/border.less";
+@import "../iconfont/iconfont.less";
+
+.header {
+	width: 100%;
+	line-height :.86rem;
+	text-align: center;
+	background : linear-gradient(to bottom, #d2302d, #a21421);
+	font-size: .38rem;
+	color: #fff;
+}
+.header::before {
+	border-color: #c92b2a;
+}
+.header-cart{
+	position: absolute;
+	right: .2rem;
+	top: .16rem;
+	width: 1.06rem;
+	line-height: .56rem;
+	background : linear-gradient(to bottom, #d94748, #940807);
+	border-radius: .16rem;
+	border: .02rem solid #941415;
+	font-size: .4rem;
+}
+.classify-wrapper{
+	overflow: hidden;
+	background: #9a9fa5;
+}
+
+//如果不加ul的宽度只是屏幕的宽度，让ul脱离文档流
+.classify-scroller{
+	float: left;
+}
+.category-list {
+	height: .56rem;
+	overflow: hidden;
+	line-height: .56rem;
+	// float: left;
+	white-space: nowrap;
+	font-size: 0; //若不加，用inline-block布局中间两像素问题会出现
+	padding: 0 .2rem;
+}
+.category-item {
+	display: inline-block;
+	width: 30px;
+	text-align: center;
+	font-size: .3rem;
+}
+.category-item-active {
+	position: relative;
+	color: #fff;
+}
+.category-item-active::before {
+	// \0020空的填充
+	content: '\0020';
+	position: absolute;
+	width: .1rem;
+	height: .1rem;
+	background: #fff;
+	bottom: 0;
+	left: .23rem;
+}
+.content-wrapper {
+	overflow: hidden;
+	position: absolute;
+	top: 1.42rem;
+	left: 0;
+	right: 0;
+	bottom: .98rem;
+}
+#loadNotice {
+	width: 100%;
+	line-height: .86rem;
+	background: #ccc;
+	text-align: center;
+	font-size: .3rem;
+}
+.content-item {
+	box-sizing: border-box;
+	float: left;
+	width: 50%;
+	padding: .2rem;
+}
+.content-imgwrapper {
+	width:100%;
+	height: 0;
+	overflow: hidden;
+	/*高和宽的比*/
+	padding-bottom: 100.81%;
+}
+.content-scroller {
+	overflow: hidden;
+}
+.content-img {
+	width:100%;
+}
+
+.goodsName {
+	margin-top: .1rem;
+	margin-bottom: .28rem;
+	font-size: .24rem;
+	color: #38393b;
+	text-align: center;
+}
+.goodsSalePrice {
+	font-size: .22rem;
+	color: #d41117;
+}
+.goodsRealPrice {
+	text-decoration: line-through;
+	font-size: .18rem;
+	color: #888;
+	margin-left: 1.5rem;
+}
+
+
+
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: .96rem;
+	background: #484850;
+	color: #fff;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.footer-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+.footer-item > i {
+	font-size: .38rem;
+}
+.footer-item > span {
+	font-size: .24rem;
+	padding-top: .12rem;
+}

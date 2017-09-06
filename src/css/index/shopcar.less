@@ -1,0 +1,145 @@
+@import "../common/base.less";
+@import "../common/border.less";
+@import "../iconfont/iconfont.less";
+
+.header {
+	width: 100%;
+	line-height :.86rem;
+	text-align: center;
+	background : linear-gradient(to bottom, #d2302d, #a21421);
+	font-size: .38rem;
+	color: #fff;
+}
+.header::before {
+	border-color: #c92b2a;
+}
+.header-cart{
+	position: absolute;
+	right: .2rem;
+	top: .16rem;
+	width: 1.06rem;
+	line-height: .56rem;
+	background : linear-gradient(to bottom, #d94748, #940807);
+	border-radius: .16rem;
+	border: .02rem solid #941415;
+	font-size: .24rem;
+}
+
+.payInfo {
+	width: 100%;
+	line-height: .88rem;
+	text-align: center;
+	background: #747474;
+	font-size: .3rem;
+	color: #fff;
+}
+
+.content-box {
+	overflow: hidden;
+	position: absolute;
+	top: 1.74rem;
+	left: 0;
+	right: 0;
+	bottom: .98rem;
+}
+
+.contentBoxItem {
+	width: 100%;
+	height: 2.32rem;
+	border-bottom: .01rem solid #aaa;
+}
+.boxItemImg {
+	width: 1.72rem;
+	height: 1.72rem;
+	border: .01rem solid #bababa;
+	margin: .27rem .25rem .3rem .33rem;
+	float: left;
+}
+.boxItemInfo {
+	width: 3.82rem;
+	height: 1.64rem;
+	margin: .36rem .24rem .35rem 0;
+	float: right;
+	font-size: .28rem;
+	color: #343333;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.goodsName1 {
+	width: 3rem;
+	line-height: .4rem;
+}
+.goodsSalePrice1 {
+	color: #aa1a1a;
+}
+.minus {
+	width: .58rem;
+	line-height: .42rem;
+	background : linear-gradient(to bottom, #aeaeae, #4f4f4f);
+	border-radius: .08rem;
+	color: #fff;
+	text-align: center;
+}
+.numInput {
+	width: .76rem;
+	line-height: .44rem;
+	border-radius: .03rem;
+	text-align: center;
+}
+.plus {
+	width: .58rem;
+	line-height: .42rem;
+	background : linear-gradient(to bottom, #aeaeae, #4f4f4f);
+	border-radius: .08rem;
+	color: #fff;
+	text-align: center;
+}
+.trashCan {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: .26rem;
+	height: .32rem;
+}
+.totalPay {
+	color: red;
+}
+
+
+
+
+
+
+
+
+
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: .96rem;
+	background: #484850;
+	color: #fff;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.footer-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+.footer-item > i {
+	font-size: .38rem;
+}
+.footer-item > span {
+	font-size: .24rem;
+	padding-top: .12rem;
+}

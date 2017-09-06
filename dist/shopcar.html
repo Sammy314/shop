@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>购物车页</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<link rel="stylesheet" href="./css/shopcar.css">
+</head>
+<body>
+	<div class="header border-top">购物车
+		<div class="header-cart">结算</div>
+	</div>
+
+	<div class="payInfo">
+		商品数量 :  <span class="totalNum"></span>	 应付金额(不含运费) :   &yen; <span class="totalPay"></span>
+	</div>
+	<div class="content-box">
+		<div class="contentBoxItem">
+			<img src="./imgs/1.gif" class="boxItemImg">
+			<div class="boxItemInfo">
+				<div class="goodsName1">ESPRIT 气质V领玫红T恤</div>
+				<div>
+					单价 : &yen; <span  class="goodsSalePrice1">199</span>
+				</div>
+				<div class="goodsNum">
+					数量 : <button class="minus js-minus">-</button>
+					<input type="text" class="numInput js-numInput" value="1">
+					<button class="plus js-plus">+</button>
+				</div>
+				<div class="iconfont trashCan">&#xe68d;</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div class="footer">
+		<div class="footer-item">
+			<i class="iconfont">&#xe644;</i>
+			<span>首页</span>
+		</div>
+		<div class="footer-item">
+			<i class="iconfont">&#xe61f;</i>
+			<span>分类</span>
+		</div>
+		<div class="footer-item">
+			<i class="iconfont">&#xe61b;</i>
+			<span>购物车</span>
+		</div>
+		<div class="footer-item">
+			<i class="iconfont">&#xe646;</i>
+			<span>我的秀</span>
+		</div>
+		<div class="footer-item">
+			<i class="iconfont">&#xe69a;</i>
+			<span>更多</span>
+		</div>
+	</div>
+
+	<script src="./js/bundle.js"></script>
+	<script src="./js/shopcar.js"></script>
+</body>
+</html>

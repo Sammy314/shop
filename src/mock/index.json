@@ -1,0 +1,139 @@
+{
+  "ret": true,
+  "data": {
+    "goods":[{
+        "imgUrl": "./imgs/1.gif",
+        "goodsname":"T恤白色",
+        "goodsSalePrice": 123,
+        "goodsRealPrice": 999,
+        "id": 1
+      },{
+        "imgUrl": "./imgs/1.gif",
+        "goodsname":"夏季清凉T恤蓝图",
+        "goodsSalePrice": 123,
+        "goodsRealPrice": 999,
+        "id": 1
+      },{
+        "imgUrl": "./imgs/1.gif",
+        "goodsname":"衣服",
+        "goodsSalePrice": 123,
+        "goodsRealPrice": 999,
+        "id": 1
+      },{
+        "imgUrl": "./imgs/1.gif",
+        "goodsname":"衣服",
+        "goodsSalePrice": 123,
+        "goodsRealPrice": 999,
+        "id": 1
+      },{
+        "imgUrl": "./imgs/1.gif",
+        "goodsname":"衣服",
+        "goodsSalePrice": 123,
+        "goodsRealPrice": 999,
+        "id": 1
+      },{
+        "imgUrl": "./imgs/1.gif",
+        "goodsname":"衣服",
+        "goodsSalePrice": 123,
+        "goodsRealPrice": 999,
+        "id": 1
+      },{
+        "imgUrl": "./imgs/1.gif",
+        "goodsname":"衣服",
+        "goodsSalePrice": 123,
+        "goodsRealPrice": 999,
+        "id": 1
+      },{
+        "imgUrl": "./imgs/1.gif",
+        "goodsname":"衣服",
+        "goodsSalePrice": 123,
+        "goodsRealPrice": 999,
+        "id": 1
+      },{
+        "imgUrl": "./imgs/1.gif",
+        "goodsname":"衣服",
+        "goodsSalePrice": 123,
+        "goodsRealPrice": 999,
+        "id": 1
+      },{
+        "imgUrl": "./imgs/1.gif",
+        "goodsname":"衣服",
+        "goodsSalePrice": 123,
+        "goodsRealPrice": 999,
+        "id": 1
+      },{
+        "imgUrl": "./imgs/1.gif",
+        "goodsname":"衣服",
+        "goodsSalePrice": 123,
+        "goodsRealPrice": 999,
+        "id": 1
+      },{
+        "imgUrl": "./imgs/1.gif",
+        "goodsname":"衣服",
+        "goodsSalePrice": 123,
+        "goodsRealPrice": 999,
+        "id": 1
+      },{
+        "imgUrl": "./imgs/1.gif",
+        "goodsname":"衣服",
+        "goodsSalePrice": 123,
+        "goodsRealPrice": 999,
+        "id": 1
+      },{
+        "imgUrl": "./imgs/1.gif",
+        "goodsname":"衣服",
+        "goodsSalePrice": 123,
+        "goodsRealPrice": 999,
+        "id": 1
+      }],
+    "category":[{
+        "icon":"&#xe664;",
+        "category_id":1
+      },{
+        "icon":"&#xe667;",
+        "category_id":2
+      },{
+        "icon":"&#xe668;",
+        "category_id":3
+      },{
+        "icon":"&#xe66b;",
+        "category_id":4
+      },{
+        "icon":"&#xe66f;",
+        "category_id":5
+      },{
+        "icon":"&#xe674;",
+        "category_id":6
+      },{
+        "icon":"&#xe676;",
+        "category_id":7
+      },{
+        "icon":"&#xe678;",
+        "category_id":8
+      },{
+        "icon":"&#xe680;",
+        "category_id":9
+      },{
+        "icon":"&#xe681;",
+        "category_id":10
+      },{
+        "icon":"&#xe682;",
+        "category_id":11
+      },{
+        "icon":"&#xe684;",
+        "category_id":12
+      },{
+        "icon":"&#xe685;",
+        "category_id":13
+      },{
+        "icon":"&#xe61c;",
+        "category_id":14
+      },{
+        "icon":"&#xe670;",
+        "category_id":15
+      },{
+        "icon":"&#xe671;",
+        "category_id":16
+      }]
+  }
+}

@@ -1,0 +1,13 @@
+{
+	"css": [
+		"src/css/index/index.less",
+		"src/css/index/shopcar.less",
+		"src/css/index/goodsInfo.less"
+	],
+
+	"js": [
+		"src/js/index/index.js",
+		"src/js/index/shopcar.js",
+		"src/js/index/goodsInfo.js"
+	]
+}
